@@ -134,6 +134,18 @@ terraform destroy
 
 ---
 
+## 反馈与贡献 / Feedback & Contributing
+
+遇到问题？请提交 [Issue](https://github.com/yedkk/terraform-openclaw/issues)，附上云平台、agent_count 和错误日志。
+
+欢迎贡献！Fork 本仓库，提交 PR 即可。无论是 bug 修复、新云平台支持还是文档改进，都非常欢迎。
+
+---
+
+Found a bug? Please open an [Issue](https://github.com/yedkk/terraform-openclaw/issues) with your cloud provider, agent_count, and error logs.
+
+Contributions welcome! Fork this repo and submit a PR. Bug fixes, new cloud support, and doc improvements are all appreciated.
+
 ## License
 
 MIT
