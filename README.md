@@ -49,6 +49,8 @@ ssh_command = "ssh -i key.pem ubuntu@54.123.45.67"
 
 浏览器打开 URL，接受自签证书警告，输入对应 agent 的 token 即可进入 Dashboard。
 
+> **注意**：`terraform apply` 完成后，VM 仍需要 3-5 分钟安装 Docker 并拉取镜像。如果打开 URL 无法访问，请稍等片刻再试。
+
 ### 设备配对
 
 首次访问 Dashboard 需要在服务器上批准设备：
@@ -113,6 +115,8 @@ ssh_command = "ssh -i key.pem ubuntu@54.123.45.67"
 ```
 
 Open the URL in your browser, accept the self-signed certificate warning, and enter the agent's token to access the Dashboard.
+
+> **Note**: After `terraform apply` finishes, the VM still needs 3–5 minutes to install Docker and pull images. If the URL is not reachable, wait a moment and try again.
 
 ### Device Pairing
 
